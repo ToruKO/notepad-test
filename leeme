@@ -1,3 +1,5 @@
 leelo harold
 
-vamor a revisar
+git add . (agregar todo lo que se hizo)
+git commit .m "mensaje que vas a comentar"
+git push (es para subirlo)
