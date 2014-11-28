@@ -4,3 +4,7 @@ git add . (agregar todo lo que se hizo)
 git commit -m "mensaje que vas a comentar"
 git push (es para subirlo)
 agregamos una linea mas---
+
+
+
+cada esta la biblica de git: http://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
