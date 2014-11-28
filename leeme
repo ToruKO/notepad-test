@@ -1,10 +1,42 @@
 leelo harold
 
+---Descargas o instalar git
+#Para instalar en ubuntu
+$ apt-get install git
+#Para descargar en Windows
+http://msysgit.github.com/
+#Para instalar en Mac
+$ sudo port install git-core +svn +doc +bash_completion +gitweb
+
+---Configuracion
+
+#Para ver la version instalada
+$ git --version
+
+#Tendremos que generar una clave SSH para conectarnos al servidor, esto si no tenemos una generada. Para hacerlo tenemos que ejecutar lo siguiente en la terminal
+$ssh-keygen -t rsa -C "tu-email@tuemail.com"
+
+#Cuando genera la clave SSH nos indica el directorio en donde la guardo. En mi caso la genero en /root/.ssh/id_rsa.pub. Hacemos 
+cat /root/.ssh/id_rsa.pub
+#Copiamos todo lo que nos devuelve y nos vamos a la página de github. Le damos click en la sección Account Settings que seria la opción del medio. En el panel izquierdo veremos una opción que dice SSH Keys, ingresamos allí y colocamos la clave SSH que acabamos de generar.
+
+#Si en una terminal ejecutamos el comando 
+$ ssh -T git@github.com 
+#tendría que conectarse correctamente al servidor.
+
+
+
+
+
+
+
+
+
+comando basicos
 git add . (agregar todo lo que se hizo)
 git commit -m "mensaje que vas a comentar"
 git push (es para subirlo)
 agregamos una linea mas---
 
 
-
-cada esta la biblica de git: http://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
+esta la biblica de git: http://git-scm.com/book/es/v1/Fundamentos-de-Git-Obteniendo-un-repositorio-Git
