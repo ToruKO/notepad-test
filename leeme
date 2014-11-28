@@ -24,6 +24,10 @@ cat /root/.ssh/id_rsa.pub
 $ ssh -T git@github.com 
 #tendría que conectarse correctamente al servidor.
 
+#Configuramos unos datos que serán necesarios cuando hacemos los commit.
+git config --global user.name "NombreDeUsuario"
+git config --global user.email "tu-email@tuemail.com" 
+
 
 
 
